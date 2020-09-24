@@ -1,0 +1,460 @@
+@charset "UTF-8";
+@font-face {
+  font-family: AvenirNext;
+  src: url("https://saadiyam.github.io/smartworld/font/AvenirNext-Regular-08.ttf")
+    format("truetype");
+}
+body {
+  font-family: AvenirNext;
+  position: relative;
+}
+
+a {
+  color: #808080;
+}
+
+a:hover,
+a:focus {
+  color: #0000;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 300;
+  letter-spacing: -1px;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: 300;
+  color: #302e2e;
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  color: #302e2e;
+  font-size: 33px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #302e2e;
+}
+
+h5 {
+  font-size: 28px;
+  font-weight: 300;
+  color: #302e2e;
+  margin-bottom: 0.7rem;
+}
+
+p {
+  color: #959094;
+}
+
+p.lead {
+  color: #302e2e;
+  margin-bottom: 2rem;
+}
+
+.text-primary {
+  color: #302e2e !important;
+}
+
+.light-font {
+  font-weight: 300;
+}
+
+.btn {
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 0.375rem 1.35rem;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  color: #302e2e;
+}
+
+.btn-primary {
+  border-radius: 3px;
+  background-image: linear-gradient(122deg, #2364a6 0%, #3f88fd 100%);
+  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+  padding: 0.6rem 2rem;
+  border: 0;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:not([disabled]):not(.disabled).active,
+.btn-primary:not([disabled]):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  background-image: linear-gradient(122deg, #4979aa 0%, #76a8f8 100%);
+  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.btn-light {
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
+  font-size: 14px;
+  font-weight: 500;
+  color: #957af8;
+  margin: 0.5rem;
+  padding: 0.7rem 1.6rem;
+  line-height: 1.8;
+}
+
+.btn-group-lg > .btn,
+.btn-lg {
+  padding: 0.8rem 1rem;
+  font-size: 15px;
+}
+
+.light-bg {
+  background-color: #eceaec;
+}
+
+.section {
+  padding: 30px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.section-title small {
+  color: #998a9b;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+}
+
+.nav-menu {
+  transition: all 0.3s ease;
+  background: white;
+}
+
+.navbar-nav .nav-link {
+  position: relative;
+  color: #302e2e !important;
+}
+
+.navbar-toggler {
+  background-color: #3f88fd;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-nav.is-scrolling {
+    padding-bottom: 1rem;
+  }
+  .navbar-nav .nav-item {
+    text-align: center;
+  }
+}
+
+.wrapper {
+  width: auto;
+  height: 100vh;
+  position: relative;
+}
+header {
+  padding: 100px 0 0;
+  text-align: center;
+  color: #fff;
+  font-weight: 400ca;
+}
+
+.bg-gradient {
+  background-image: url("https://saadiyam.github.io/smartworld/images/dubai-downtown.jpg");
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: contrast(0.7) brightness(0.7);
+}
+
+.h-container {
+  align-items: center;
+  bottom: 0;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  left: 0;
+  padding: 20vw;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: -40px;
+}
+
+.tagline {
+  font-size: 23px;
+  font-weight: 400;
+  color: #edecf0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.img-holder {
+  height: 0;
+  padding-bottom: 33%;
+  overflow: hidden;
+}
+
+.img-fluid {
+  width: 10vw;
+  height: auto;
+}
+
+.img-logo {
+  width: 100vw;
+  height: auto;
+}
+
+@media (max-width: 1200px) {
+  .img-holder {
+    padding-bottom: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .tagline {
+    font-size: 17px;
+  }
+  .img-holder {
+    padding-bottom: 100%;
+  }
+
+  @media (max-width: 500px) {
+    .h-container {
+      top: 5px !important;
+    }
+  }
+}
+
+.card.features {
+  margin-top: 1em;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+#iso .card.features {
+  height: 17rem;
+  min-height: 17rem;
+}
+
+@media (max-width: 991px) {
+  .card.features {
+    margin-bottom: 2rem;
+  }
+  [class^="col-"]:last-child .card.features {
+    margin-bottom: 0;
+  }
+}
+
+.card.features:before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  color: #9773fc;
+  background: linear-gradient(to bottom, #2364a6 0%, #f1f4f9 100%);
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.card.features:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.box-icon {
+  box-shadow: 0px 0px 43px 0px rgba(0, 0, 0, 0.14);
+  padding: 10px;
+  width: 70px;
+  border-radius: 3px;
+  margin-bottom: 1.5rem;
+  background-color: #fff;
+}
+
+.tab-content {
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background-color: #fff;
+  box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.1);
+  padding: 3rem;
+}
+
+@media (max-width: 992px) {
+  .tab-content {
+    padding: 1.5rem;
+  }
+}
+
+.tab-content p {
+  line-height: 1.8;
+}
+
+.tab-content h2 {
+  margin-bottom: 0.5rem;
+}
+
+.nav-tabs {
+  margin-top: 2rem;
+  border-bottom: 0;
+}
+
+.nav-tabs .nav-item .nav-link,
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  padding: 1rem 1rem;
+  border-color: #faf6fb #faf6fb #fff;
+  font-size: 19px;
+  color: #b5a4c8;
+  background: #f5eff7;
+}
+
+.nav-tabs .nav-link.active {
+  background: #fff;
+  border-top-width: 3px;
+  border-color: #2364a6 #faf6fb #fff;
+  color: #2364a6;
+}
+
+@media (max-width: 992px) {
+  .card-deck {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .card-deck .card {
+    margin-bottom: 15px;
+  }
+}
+
+.card.news {
+  padding: 2rem;
+  border: 1px solid #f1eef1;
+  box-shadow: 0px 0px 43px 0px rgba(0, 0, 0, 0.08);
+}
+
+.card.news .card-head .news-title {
+  display: block;
+  font-size: 20px;
+  font-weight: 300;
+  color: #2364a6;
+  margin-top: 1rem;
+}
+
+.card.news .card-head .news-title sub {
+  bottom: 0;
+  font-size: 55%;
+}
+
+.card.news .list-group-item {
+  border: 0;
+  text-align: center;
+  color: #959094;
+  padding: 1.05rem 1.25rem;
+}
+
+.card.news .list-group-item del {
+  color: #d9d3d8;
+}
+
+.card.news .card-body {
+  padding: 0rem;
+}
+
+.call-to-action {
+  text-align: center;
+  color: 2364a6;
+  margin: 3rem 0;
+}
+
+.call-to-action h2 {
+  color: #2364a6;
+}
+
+.btn-light img {
+  margin-right: 0.4rem;
+  vertical-align: text-bottom;
+}
+
+.footer {
+  background-color: #302e2e;
+  color: white;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+.footer-small {
+  background-color: black;
+  margin: 0rem !important;
+  padding: 1rem !important;
+}
+
+.footer-small li {
+  display: inline-block;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.footer-small a {
+  box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.05);
+  width: 25px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  margin: 0 0.3rem;
+  border-radius: 5px;
+  color: #959094;
+  transition: all 0.3s ease;
+}
+
+.footer-small a:hover {
+  text-decoration: none;
+  color: #fffbfd;
+}
+
+.footer-small .fa {
+  font-size: 20px;
+}
+
+@media (max-width: 991px) {
+  .footer-small a {
+    text-align: center;
+    margin-top: 2rem;
+  }
+}
